@@ -1,0 +1,41 @@
+{
+  "framing": "fear",
+  "mode": "random_pairs",
+  "agents": 6,
+  "turns_run": 3,
+  "delta_p": 8.999999999999894e-06,
+  "leaderboard": [
+    {
+      "rank": 1,
+      "id": 3,
+      "mbti": "ENTP",
+      "influence_score": 1.0
+    },
+    {
+      "rank": 2,
+      "id": 5,
+      "mbti": "INFP",
+      "influence_score": 1.0
+    },
+    {
+      "rank": 3,
+      "id": 0,
+      "mbti": "INTJ",
+      "influence_score": 0.6667
+    },
+    {
+      "rank": 4,
+      "id": 1,
+      "mbti": "INTP",
+      "influence_score": 0.6667
+    },
+    {
+      "rank": 5,
+      "id": 2,
+      "mbti": "ENTJ",
+      "influence_score": 0.6667
+    }
+  ],
+  "final_polarization": 0.00115,
+  "final_echo_chamber": 0.5
+}

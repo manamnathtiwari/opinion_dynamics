@@ -1,0 +1,74 @@
+# MBTI → OCEAN mappings for all 16 personality types
+# OCEAN: O=Openness, C=Conscientiousness, E=Extraversion, A=Agreeableness, N=Neuroticism
+# All values in [0.0, 1.0]
+
+profiles:
+  INTJ:
+    ocean: {O: 0.75, C: 0.90, E: 0.20, A: 0.25, N: 0.35}
+    description: "Strategic, independent thinker. Argues from logic, resists emotional appeals."
+
+  INTP:
+    ocean: {O: 0.88, C: 0.55, E: 0.18, A: 0.30, N: 0.45}
+    description: "Analytical, theory-driven. Explores ideas extensively, slow to commit to fixed positions."
+
+  ENTJ:
+    ocean: {O: 0.72, C: 0.88, E: 0.82, A: 0.28, N: 0.32}
+    description: "Commanding, efficient. Asserts views forcefully, prioritises strategic outcomes."
+
+  ENTP:
+    ocean: {O: 0.90, C: 0.42, E: 0.80, A: 0.38, N: 0.48}
+    description: "Debate-oriented, provocative. Enjoys challenging others, frequently plays devil's advocate."
+
+  INFJ:
+    ocean: {O: 0.85, C: 0.72, E: 0.22, A: 0.78, N: 0.60}
+    description: "Perceptive, principled. Holds deep convictions but listens empathetically before responding."
+
+  INFP:
+    ocean: {O: 0.88, C: 0.42, E: 0.22, A: 0.82, N: 0.65}
+    description: "Idealistic, values-driven. Avoids conflict, very open but deeply principled."
+
+  ENFJ:
+    ocean: {O: 0.80, C: 0.75, E: 0.88, A: 0.85, N: 0.50}
+    description: "Charismatic, persuasive. Naturally draws people toward consensus, high social influence."
+
+  ENFP:
+    ocean: {O: 0.92, C: 0.40, E: 0.85, A: 0.75, N: 0.55}
+    description: "Enthusiastic, empathetic. Open to new views, communicates warmly."
+
+  ISTJ:
+    ocean: {O: 0.30, C: 0.92, E: 0.25, A: 0.55, N: 0.28}
+    description: "Detail-oriented, traditional. Relies on precedent, slow to change opinion."
+
+  ISFJ:
+    ocean: {O: 0.35, C: 0.88, E: 0.28, A: 0.80, N: 0.42}
+    description: "Caring, dutiful. Accommodates others readily, quietly shifts opinions to avoid friction."
+
+  ESTJ:
+    ocean: {O: 0.28, C: 0.90, E: 0.78, A: 0.42, N: 0.30}
+    description: "Decisive, traditional. High broadcast rate, low update probability."
+
+  ESFJ:
+    ocean: {O: 0.32, C: 0.85, E: 0.80, A: 0.88, N: 0.48}
+    description: "Sociable, supportive. Seeks social harmony; opinion shifts if peer group shifts."
+
+  ISTP:
+    ocean: {O: 0.55, C: 0.65, E: 0.20, A: 0.32, N: 0.30}
+    description: "Pragmatic, detached. Responds only to concrete evidence; ignores emotional rhetoric."
+
+  ISFP:
+    ocean: {O: 0.62, C: 0.45, E: 0.25, A: 0.75, N: 0.55}
+    description: "Gentle, flexible. Dislikes debate, quietly absorbs views from trusted peers."
+
+  ESTP:
+    ocean: {O: 0.60, C: 0.38, E: 0.90, A: 0.40, N: 0.42}
+    description: "Bold, pragmatic. Challenges others directly, high influence potential."
+
+  ESFP:
+    ocean: {O: 0.68, C: 0.35, E: 0.92, A: 0.78, N: 0.50}
+    description: "Energetic, spontaneous. Easily swayed by enthusiastic peers, high social reach."
+
+# Population presets control which MBTI types are sampled when spawning agents
+# uniform: cycle through all 16 types equally
+# majority_neurotic: over-sample INFP, INFJ, ENFP, ENTP
+# majority_agreeable: over-sample ENFJ, ESFJ, ISFJ, ISFP
+population_preset: uniform

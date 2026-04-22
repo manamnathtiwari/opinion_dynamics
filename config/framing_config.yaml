@@ -1,0 +1,39 @@
+article_variants:
+  - id: fear
+    label: "fear-based"
+    headline: "Scientists warn of catastrophic consequences if AI regulation fails"
+    body: |
+      Researchers at a leading institute have issued stark warnings that
+      unregulated artificial intelligence poses an existential threat to
+      democratic institutions and individual privacy. Studies indicate
+      that without binding international agreements, AI systems could
+      manipulate elections, concentrate economic power in the hands of
+      a few corporations, and render millions of workers permanently
+      unemployable. Experts call the current regulatory vacuum
+      "dangerously irresponsible" and urge immediate legislative action.
+
+  - id: neutral
+    label: "neutral"
+    headline: "Policymakers debate scope of new AI oversight framework"
+    body: |
+      A cross-party committee met this week to discuss a proposed framework
+      for AI oversight. Experts presented a range of positions on the
+      appropriate level of regulatory intervention, with technology industry
+      representatives emphasising the importance of preserving innovation
+      while civil society groups advocated for stronger accountability
+      mechanisms. The committee expects to publish its recommendations
+      within the next quarter. No consensus has yet been reached.
+
+  - id: solution
+    label: "solution-focused"
+    headline: "New international AI safety coalition launches with industry backing"
+    body: |
+      A coalition of governments and technology companies has announced a
+      collaborative framework designed to promote responsible AI development
+      while preserving innovation. The agreement includes voluntary
+      commitments to third-party auditing, algorithmic transparency, and
+      a shared research fund for AI safety. Participating nations described
+      the initiative as a "first concrete step" toward global coordination
+      and expressed optimism that further binding agreements would follow.
+
+active_variant: fear   # change this to switch framing: fear | neutral | solution

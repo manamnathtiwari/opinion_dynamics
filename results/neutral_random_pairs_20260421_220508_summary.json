@@ -1,0 +1,23 @@
+{
+  "framing": "neutral",
+  "mode": "random_pairs",
+  "agents": 2,
+  "turns_run": 1,
+  "delta_p": 0.0,
+  "leaderboard": [
+    {
+      "rank": 1,
+      "id": 0,
+      "mbti": "INTJ",
+      "influence_score": 1.0
+    },
+    {
+      "rank": 2,
+      "id": 1,
+      "mbti": "INTP",
+      "influence_score": 1.0
+    }
+  ],
+  "final_polarization": 0.000163,
+  "final_echo_chamber": 0.5
+}

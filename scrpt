@@ -1,0 +1,13 @@
+# From now on, use these commands:
+.\venv\Scripts\python.exe run_sim.py --mock --agents 8 --turns 5
+
+# Launch Streamlit dashboard (mock mode checkbox is ON by default)
+.\venv\Scripts\streamlit.exe run app.py
+
+# When Ollama is ready:
+ollama pull mistral:7b-instruct-q4_K_M
+set OLLAMA_NUM_THREAD=8
+.\venv\Scripts\python.exe run_sim.py --framing fear --mode random_pairs --agents 8 --turns 15
+
+
+
