@@ -255,12 +255,6 @@ PRs welcome!
 
 ---
 
-## 📜 License
-
-Hegselmann–Krause model (2002)
-
----
-
 ## 👨‍💻 About Me
 
 **Manamnath Tiwari**  
