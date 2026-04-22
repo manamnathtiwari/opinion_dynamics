@@ -268,7 +268,7 @@ AI/ML Developer
 
 📧 manamnathtiwari@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/manamnath-tiwari  
-💻 GitHub: https://github.com/your-username  
+💻 GitHub: https://github.com/manamnathtiwari 
 
 ---
 
